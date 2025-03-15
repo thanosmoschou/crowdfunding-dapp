@@ -20,7 +20,7 @@ This is a simple decentralized crowdfunding application built with React and Sol
 Make sure you have the following installed:
 - [Node.js](https://nodejs.org/)
 - [MetaMask](https://metamask.io/) (for interacting with the blockchain)
-- A local Ethereum test network (e.g., Ganache) or a public testnet
+- [Ganache](https://trufflesuite.com/ganache/) (for a local Ethereum test network)
 
 ### Setup
 1. Clone the repository:
@@ -28,11 +28,20 @@ Make sure you have the following installed:
    git clone https://github.com/thanosmoschou/crowdfunding-dapp.git
    cd crowdfunding-dapp
    ```
-2. Install dependencies:
+2. Compile the smart contract using Remix IDE:
+   - Open [Remix IDE](https://remix.ethereum.org/).
+   - Load your Solidity smart contract.
+   - Compile the contract using the Solidity compiler.
+3. Deploy the smart contract to Ganache:
+   - In Remix, select "Injected Provider - MetaMask" as the environment.
+   - Connect MetaMask to your local Ganache network.
+   - Deploy the contract and copy the contract address.
+4. Retrieve the contract's address and ABI, then update `crowdfunding.js` which is under the `src` folder, with these values.
+5. Install dependencies:
    ```bash
    npm install
    ```
-3. Start the development server:
+6. Start the development server:
    ```bash
    npm start
    ```
@@ -58,5 +67,6 @@ The application interacts with a smart contract that handles:
 - Web3.js
 - Ethereum blockchain
 - MetaMask
-
+- Ganache
+- Remix IDE
 
