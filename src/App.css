@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+/* Top part */
+
+.header {
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.header h1 {
+  margin-left: 15px;
+}
+
+.wallet-details {
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.addresses p {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addresses input {
+  margin-left: 30px;
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #b0adad;
+  border-width: 2px;
+  text-align: center;
+}
+
+.balances {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  gap: 20px;
+}
+
+.balances p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+.balances input {
+  margin-left: 30px;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #b0adad;
+  border-width: 2px;
+  text-align: center;
+}
+
+/* New Campaign part */
+
+.new-campaign {
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.new-campaign h2 {
+  margin-left: 15px;
+}
+
+.new-campaign form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+}
+
+.new-campaign label {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.new-campaign-title-container input {
+  margin-left: 120px;
+}
+
+.new-campaign-pledge-cost-container input {
+  margin-left: 65px;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #b0adad;
+  border-width: 2px;
+  text-align: center;
+}
+
+.new-campaign-number-of-pledges-container input {
+  margin-left: 10px;
+  width: 70px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #b0adad;
+  border-width: 2px;
+  text-align: center;
+}
+
+#create-campaign-btn {
+  margin-left: 180px;
+}
+
+/* Campaign Tables */
+.live-campaigns, .fulfilled-campaigns, .canceled-campaigns {
+  margin: 20px;
+}
+
+.live-campaigns table, .fulfilled-campaigns table, .canceled-campaigns table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.live-campaigns th,
+.live-campaigns td,
+.fulfilled-campaigns th,
+.fulfilled-campaigns td,
+.canceled-campaigns th,
+.canceled-campaigns td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+
+/* Control Panel */
+.control-panel {
+  color: black;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.control-panel-container {
+  margin-left: 20px;
+}
+
+.control-panel h2 {
+  margin-left: 15px;
+}
+
+.form-inline {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  margin-left: 30px;
+  width: 350px;
+  height: 25px;
+  border-radius: 5px;
+  border-color: #b0adad;
+  border-width: 2px;
+  text-align: center;
+}
+
+/* Buttons */
+.btn {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+  height: 30px;
+}
+
+.btn-blue {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.btn-green {
+  background-color: #5cb85c;
+  color: white;
+}
+
+.btn-red {
+  background-color: #d9534f;
+  color: white;
+}
+
+.btn-grey {
+  background-color: #ccc;
+  color: #666;
+}
+
